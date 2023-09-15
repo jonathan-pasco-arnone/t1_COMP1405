@@ -1,7 +1,7 @@
 """ Grade Calculation """
 #!/usr/bin/env python3
 
-# Created by: Jonathan Pasco-Arnone
+# Created by: Jonathan Pasco-Arnone and Aidan Lalonde-Novales
 # Created on: September 2023
 
 from time import sleep # To pause at the end of the code

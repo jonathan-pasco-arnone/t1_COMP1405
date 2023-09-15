@@ -4,6 +4,7 @@
 # Created on: September 2023
 
 import random
+from time import sleep # To pause at the end of the code
 
 def main():
     """ Main function of the guessing game """
@@ -26,6 +27,7 @@ def main():
     except Exception:
         print("Please input an actual number")
         retry = True
+    sleep(1) # So the file does not instantly close when it is finished running
 
 
 if __name__ == "__main__":
